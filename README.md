@@ -1,10 +1,11 @@
 # MailChimp Mailer Info
-
-![](https://github.com/Jujhar/mailchimp-mailer-info/blob/master/screenshot-1.png?raw=true)
 Track MailChimp statistics for a specific email account.
 View open dates, click dates, or bounced dates from all your campaigns.
 Ability to view the exact email sent.
 Option store to MySQL database.
+
+### Screenshot
+<img src="https://github.com/Jujhar/mailchimp-mailer-info/blob/master/screenshot-1.png" alt="screenshot" style="width: 300px;"/>
 
 ### Instructions
 For a batch command append desired email address to the url (?email=example@ex.com),
