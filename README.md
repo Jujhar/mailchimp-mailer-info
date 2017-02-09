@@ -17,5 +17,10 @@ If you want to save to a database run the install.sql script and enable the rele
 You can also enter the email to query from the index.html file as opposed to entering it in the url get parameter.
 
 ### Options
-**display_activity_open_multiple**
+Options are set under the configuration options in the mailchimp-mailer-info.php file.
+
+**display activity open multiple** (default 1)
 If disabled it will create new Opens column displaying number of opens rather than display each on its own with its open date. It will also display only the first open date.
+
+**enable db save** (default 0)
+Please change the database name and table name in the install.sql file and then import it before enabling
